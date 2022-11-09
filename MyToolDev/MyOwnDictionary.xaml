@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:local="clr-namespace:MyToolDev"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+    <local:Character x:Key="DefaultCharacter">
+
+        <local:Character.Name>PLEASE</local:Character.Name>
+        <local:Character.Health>100</local:Character.Health>
+        <local:Character.IsMale>False</local:Character.IsMale>
+        <local:Character.Attack>0</local:Character.Attack>
+        <local:Character.Defence>50</local:Character.Defence>
+        
+        
+        
+    </local:Character>
+
+    <x:Array  x:Key="DefaultCharacters" Type="local:Character">
+
+        <local:Character Name="WORK" IsMale="True" Health="100" Attack="0" Defence="10"/>
+        <local:Character Name="MAAAN" IsMale="False" Health="10" Attack="10" Defence="10"/>
+
+    </x:Array>
+    
+    
+</ResourceDictionary>

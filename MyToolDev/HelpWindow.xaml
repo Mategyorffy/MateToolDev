@@ -1,0 +1,39 @@
+﻿<Window x:Class="MyToolDev.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyToolDev"
+        mc:Ignorable="d"
+        Title="HelpWindow" Height="300" Width="320"
+         ResizeMode="NoResize" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner">
+    <Grid>
+
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <TextBlock Text="Help Menu" VerticalAlignment="Top" HorizontalAlignment="Center" DockPanel.Dock="Top" FontWeight="Bold" Grid.Row="0" RenderTransformOrigin="0.5,-1.239"/>
+        </DockPanel>
+       
+        <StackPanel Grid.Row="1" Orientation="Vertical" Width="300">
+
+            <TextBlock Text="This editor is designed to Create / Change / Save characters. The user is able to change the characters : Name, Health, Gender, Attack and Defence.
+                       By pressing Save : The character is saved to the last path that was Opened. By pressing SaveAs : The user can specify the path for the character to be saved in. And by pressing Open : the Editor opens an XAML file that has the .char ending." Grid.Row="1" Height="140" Width="282" TextWrapping="Wrap" TextAlignment="Center"/>
+
+
+        </StackPanel>
+
+
+
+
+
+
+
+    </Grid>
+</Window>
